@@ -7,7 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Game.h"
+#import "Bowler.h"
 
 @interface ChooseBowlerViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *bowlerName;
+@property (weak, nonatomic) IBOutlet UILabel *bowlerFigures;
+@property Game *game;
+@property Bowler *current;
+@property (weak, nonatomic) IBOutlet UIButton *submit;
+@property BOOL *newBowler;
+- (IBAction)changeBowler:(id)sender;
+- (IBAction)submit:(id)sender;
 
 @end

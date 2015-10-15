@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Game.h"
 
-@interface ScoreboardContainerViewController : UIViewController
+@interface ScoreboardContainerViewController : UIViewController<UIPageViewControllerDataSource>
+
+@property (strong, nonatomic) UIPageViewController *pageViewController;
+@property Game *game;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *generatePDF;
+@property (weak, nonatomic) IBOutlet UILabel *matchSituation;
 
 @end

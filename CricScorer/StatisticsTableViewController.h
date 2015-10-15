@@ -10,4 +10,9 @@
 
 @interface StatisticsTableViewController : UITableViewController
 
+@property NSMutableArray *players;
+@property NSMutableArray *properPlayers;
+@property int index;
+@property int currentTag;
+
 @end

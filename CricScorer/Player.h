@@ -8,6 +8,17 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Player : NSObject
+@class BattingStats;
+@class BowlingStatistics;
+
+
+@interface Player : NSObject<NSCoding>
+
+@property NSString *name;
+@property NSString *team;
+@property BowlingStatistics *bowling;
+@property BattingStats *batting;
+
+
 
 @end

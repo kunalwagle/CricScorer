@@ -7,7 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+@class Bowler;
+@class Player;
 
-@interface Dismissal : NSObject
+@interface Dismissal : NSObject<NSCoding>
+
+-(Dismissal*)initWithNotOut;
+
+@property (nonatomic) NSString* howOut;
+@property (nonatomic) Bowler *bowler;
+@property (nonatomic) Player *fielder;
+@property (nonatomic) int fow;
 
 @end

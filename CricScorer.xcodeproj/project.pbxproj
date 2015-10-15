@@ -7,6 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C021DE01B73BC700012ACFC /* StandardSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C021DDF1B73BC6F0012ACFC /* StandardSegmentedControl.m */; };
+		0C021E2F1B73C2720012ACFC /* green_both_un.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C021E201B73C2720012ACFC /* green_both_un.png */; };
+		0C021E301B73C2720012ACFC /* green_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C021E211B73C2720012ACFC /* green_selected.png */; };
+		0C021E311B73C2720012ACFC /* green_selected_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C021E221B73C2720012ACFC /* green_selected_left.png */; };
+		0C021E321B73C2720012ACFC /* green_selected_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C021E231B73C2720012ACFC /* green_selected_right.png */; };
+		0C021E331B73C2720012ACFC /* green_unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C021E241B73C2720012ACFC /* green_unselected.png */; };
+		0C021E341B73C2720012ACFC /* red_both_un.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C021E251B73C2720012ACFC /* red_both_un.png */; };
+		0C021E351B73C2720012ACFC /* red_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C021E261B73C2720012ACFC /* red_selected.png */; };
+		0C021E361B73C2720012ACFC /* red_selected_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C021E271B73C2720012ACFC /* red_selected_left.png */; };
+		0C021E371B73C2720012ACFC /* red_selected_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C021E281B73C2720012ACFC /* red_selected_right.png */; };
+		0C021E381B73C2720012ACFC /* red_unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C021E291B73C2720012ACFC /* red_unselected.png */; };
+		0C021E391B73C2720012ACFC /* white_both_un.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C021E2A1B73C2720012ACFC /* white_both_un.png */; };
+		0C021E3A1B73C2720012ACFC /* white_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C021E2B1B73C2720012ACFC /* white_selected.png */; };
+		0C021E3B1B73C2720012ACFC /* white_selected_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C021E2C1B73C2720012ACFC /* white_selected_left.png */; };
+		0C021E3C1B73C2720012ACFC /* white_selected_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C021E2D1B73C2720012ACFC /* white_selected_right.png */; };
+		0C021E3D1B73C2720012ACFC /* white_unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C021E2E1B73C2720012ACFC /* white_unselected.png */; };
+		0C021E401B742F5C0012ACFC /* GameplayScoreboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C021E3F1B742F5C0012ACFC /* GameplayScoreboardViewController.m */; };
+		0C021E421B76CEEB0012ACFC /* rectangle-34969_64.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C021E411B76CEEB0012ACFC /* rectangle-34969_64.png */; };
+		0C021E441B776A900012ACFC /* Full version.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C021E431B776A900012ACFC /* Full version.png */; };
+		0C021E4A1B776CA70012ACFC /* 29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C021E451B776CA70012ACFC /* 29x29.png */; };
+		0C021E4B1B776CA70012ACFC /* 40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C021E461B776CA70012ACFC /* 40x40.png */; };
+		0C021E4C1B776CA70012ACFC /* 58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C021E471B776CA70012ACFC /* 58x58.png */; };
+		0C021E4D1B776CA70012ACFC /* 76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C021E481B776CA70012ACFC /* 76x76.png */; };
+		0C021E4E1B776CA70012ACFC /* 80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C021E491B776CA70012ACFC /* 80x80.png */; };
+		0C021E501B776D070012ACFC /* 152x152.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C021E4F1B776D070012ACFC /* 152x152.png */; };
+		0C021E551B776F460012ACFC /* Cricket-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C021E511B776F460012ACFC /* Cricket-50@2x.png */; };
+		0C021E561B776F460012ACFC /* Dossier-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C021E521B776F460012ACFC /* Dossier-50@2x.png */; };
+		0C021E571B776F460012ACFC /* Downloads Folder-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C021E531B776F460012ACFC /* Downloads Folder-50@2x.png */; };
+		0C021E581B776F460012ACFC /* Statistics Filled-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C021E541B776F460012ACFC /* Statistics Filled-50@2x.png */; };
 		0C2EFE3C1B38BF5400A92E09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2EFE3B1B38BF5400A92E09 /* main.m */; };
 		0C2EFE3F1B38BF5400A92E09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2EFE3E1B38BF5400A92E09 /* AppDelegate.m */; };
 		0C2EFE421B38BF5400A92E09 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2EFE411B38BF5400A92E09 /* FirstViewController.m */; };
@@ -15,6 +44,43 @@
 		0C2EFE4A1B38BF5400A92E09 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C2EFE491B38BF5400A92E09 /* Images.xcassets */; };
 		0C2EFE4D1B38BF5400A92E09 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C2EFE4B1B38BF5400A92E09 /* LaunchScreen.xib */; };
 		0C2EFE591B38BF5400A92E09 /* CricScorerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2EFE581B38BF5400A92E09 /* CricScorerTests.m */; };
+		0CBE45541B3F6A300003009C /* FirstNewGamePageSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBE45531B3F6A300003009C /* FirstNewGamePageSheetViewController.m */; };
+		0CBE45571B41A8AA0003009C /* SecondNewGamePageSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBE45561B41A8AA0003009C /* SecondNewGamePageSheetViewController.m */; };
+		0CC6DAB41B46F9EC002C7D65 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC6DAB31B46F9EC002C7D65 /* Game.m */; };
+		0CC6DAB71B474C9E002C7D65 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC6DAB61B474C9E002C7D65 /* Player.m */; };
+		0CC6DABA1B474D2E002C7D65 /* Bowler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC6DAB91B474D2E002C7D65 /* Bowler.m */; };
+		0CC6DABD1B4831F6002C7D65 /* Inning.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC6DABC1B4831F6002C7D65 /* Inning.m */; };
+		0CC6DAC01B483281002C7D65 /* Dismissal.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC6DABF1B483281002C7D65 /* Dismissal.m */; };
+		0CC6DAC31B48330C002C7D65 /* Batsman.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC6DAC21B48330C002C7D65 /* Batsman.m */; };
+		0CC6DAC71B48404B002C7D65 /* GamePlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC6DAC61B48404B002C7D65 /* GamePlayViewController.m */; };
+		0CC6DACA1B497442002C7D65 /* SelectPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC6DAC91B497442002C7D65 /* SelectPlayerViewController.m */; };
+		0CC6DACD1B498022002C7D65 /* InitialisationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC6DACC1B498022002C7D65 /* InitialisationViewController.m */; };
+		0CD3277D1B5B4C9000407548 /* StandardDeliveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD3277C1B5B4C9000407548 /* StandardDeliveryViewController.m */; };
+		0CD327801B5BED0400407548 /* ChooseBowlerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD3277F1B5BED0400407548 /* ChooseBowlerViewController.m */; };
+		0CD327831B5C9A3500407548 /* DismissalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD327821B5C9A3500407548 /* DismissalViewController.m */; };
+		0CD327861B5D970A00407548 /* LoadGameListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD327851B5D970A00407548 /* LoadGameListTableViewController.m */; };
+		0CD327881B5EF61100407548 /* MatchSummaryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CD327871B5EF61100407548 /* MatchSummaryTableViewCell.xib */; };
+		0CD3278B1B5EFAE800407548 /* MatchSummaryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD3278A1B5EFAE800407548 /* MatchSummaryTableViewCell.m */; };
+		0CD3278D1B5EFFFB00407548 /* MatchFactsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CD3278C1B5EFFFB00407548 /* MatchFactsTableViewCell.xib */; };
+		0CD327901B5F388400407548 /* MatchFactsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD3278F1B5F388400407548 /* MatchFactsTableViewCell.m */; };
+		0CD327931B5F390200407548 /* MatchSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD327921B5F390200407548 /* MatchSummaryViewController.m */; };
+		0CD327951B5FFD4500407548 /* ScorecardBatsmanTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CD327941B5FFD4500407548 /* ScorecardBatsmanTableViewCell.xib */; };
+		0CD327971B5FFE4200407548 /* ScorecardBowlerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CD327961B5FFE4200407548 /* ScorecardBowlerTableViewCell.xib */; };
+		0CD327A51B6002D700407548 /* ScoreboardTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD327A31B6002D700407548 /* ScoreboardTableViewController.m */; };
+		0CD327A91B6006B500407548 /* ScoreboardBatsmanTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD327A81B6006B500407548 /* ScoreboardBatsmanTableViewCell.m */; };
+		0CD327AC1B6006C300407548 /* ScoreboardBowlerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD327AB1B6006C300407548 /* ScoreboardBowlerTableViewCell.m */; };
+		0CD327AF1B600F8F00407548 /* ScoreboardPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD327AE1B600F8F00407548 /* ScoreboardPageViewController.m */; };
+		0CD327B21B60109700407548 /* ScoreboardContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD327B11B60109700407548 /* ScoreboardContainerViewController.m */; };
+		0CD327B51B60148600407548 /* ScoreboardListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD327B41B60148600407548 /* ScoreboardListTableViewController.m */; };
+		0CD327BB1B60A0FB00407548 /* BattingStatistics.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD327BA1B60A0FB00407548 /* BattingStatistics.m */; };
+		0CD327BE1B60A1A400407548 /* BowlingStatistics.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD327BD1B60A1A400407548 /* BowlingStatistics.m */; };
+		0CD327CB1B61960300407548 /* BowlingStatisticsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CD327CA1B61960300407548 /* BowlingStatisticsTableViewCell.xib */; };
+		0CD327CF1B6197DA00407548 /* StatisticsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD327CE1B6197DA00407548 /* StatisticsTableViewController.m */; };
+		0CD327D21B61990900407548 /* StatisticsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD327D11B61990900407548 /* StatisticsTableViewCell.m */; };
+		0CD327D51B61F2B300407548 /* StatisticsPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD327D41B61F2B300407548 /* StatisticsPageViewController.m */; };
+		0CD327D81B61F3A300407548 /* StatisticsContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD327D71B61F3A300407548 /* StatisticsContainerViewController.m */; };
+		0CFECC971B698A660001E541 /* PDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFECC961B698A660001E541 /* PDFViewController.m */; };
+		0CFECC991B698AA00001E541 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CFECC981B698AA00001E541 /* CoreText.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +94,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C021DDE1B73BC6F0012ACFC /* StandardSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandardSegmentedControl.h; sourceTree = "<group>"; };
+		0C021DDF1B73BC6F0012ACFC /* StandardSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StandardSegmentedControl.m; sourceTree = "<group>"; };
+		0C021E201B73C2720012ACFC /* green_both_un.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_both_un.png; sourceTree = "<group>"; };
+		0C021E211B73C2720012ACFC /* green_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_selected.png; sourceTree = "<group>"; };
+		0C021E221B73C2720012ACFC /* green_selected_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_selected_left.png; sourceTree = "<group>"; };
+		0C021E231B73C2720012ACFC /* green_selected_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_selected_right.png; sourceTree = "<group>"; };
+		0C021E241B73C2720012ACFC /* green_unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_unselected.png; sourceTree = "<group>"; };
+		0C021E251B73C2720012ACFC /* red_both_un.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_both_un.png; sourceTree = "<group>"; };
+		0C021E261B73C2720012ACFC /* red_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_selected.png; sourceTree = "<group>"; };
+		0C021E271B73C2720012ACFC /* red_selected_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_selected_left.png; sourceTree = "<group>"; };
+		0C021E281B73C2720012ACFC /* red_selected_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_selected_right.png; sourceTree = "<group>"; };
+		0C021E291B73C2720012ACFC /* red_unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_unselected.png; sourceTree = "<group>"; };
+		0C021E2A1B73C2720012ACFC /* white_both_un.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white_both_un.png; sourceTree = "<group>"; };
+		0C021E2B1B73C2720012ACFC /* white_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white_selected.png; sourceTree = "<group>"; };
+		0C021E2C1B73C2720012ACFC /* white_selected_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white_selected_left.png; sourceTree = "<group>"; };
+		0C021E2D1B73C2720012ACFC /* white_selected_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white_selected_right.png; sourceTree = "<group>"; };
+		0C021E2E1B73C2720012ACFC /* white_unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white_unselected.png; sourceTree = "<group>"; };
+		0C021E3E1B742F5C0012ACFC /* GameplayScoreboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameplayScoreboardViewController.h; sourceTree = "<group>"; };
+		0C021E3F1B742F5C0012ACFC /* GameplayScoreboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameplayScoreboardViewController.m; sourceTree = "<group>"; };
+		0C021E411B76CEEB0012ACFC /* rectangle-34969_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rectangle-34969_64.png"; sourceTree = "<group>"; };
+		0C021E431B776A900012ACFC /* Full version.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Full version.png"; sourceTree = "<group>"; };
+		0C021E451B776CA70012ACFC /* 29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29x29.png; sourceTree = "<group>"; };
+		0C021E461B776CA70012ACFC /* 40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 40x40.png; sourceTree = "<group>"; };
+		0C021E471B776CA70012ACFC /* 58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58x58.png; sourceTree = "<group>"; };
+		0C021E481B776CA70012ACFC /* 76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 76x76.png; sourceTree = "<group>"; };
+		0C021E491B776CA70012ACFC /* 80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80x80.png; sourceTree = "<group>"; };
+		0C021E4F1B776D070012ACFC /* 152x152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 152x152.png; sourceTree = "<group>"; };
+		0C021E511B776F460012ACFC /* Cricket-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cricket-50@2x.png"; sourceTree = "<group>"; };
+		0C021E521B776F460012ACFC /* Dossier-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dossier-50@2x.png"; sourceTree = "<group>"; };
+		0C021E531B776F460012ACFC /* Downloads Folder-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Downloads Folder-50@2x.png"; sourceTree = "<group>"; };
+		0C021E541B776F460012ACFC /* Statistics Filled-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Statistics Filled-50@2x.png"; sourceTree = "<group>"; };
 		0C2EFE361B38BF5400A92E09 /* CricScorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CricScorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C2EFE3A1B38BF5400A92E09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C2EFE3B1B38BF5400A92E09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -43,6 +140,74 @@
 		0C2EFE521B38BF5400A92E09 /* CricScorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CricScorerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C2EFE571B38BF5400A92E09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C2EFE581B38BF5400A92E09 /* CricScorerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CricScorerTests.m; sourceTree = "<group>"; };
+		0CBE45521B3F6A300003009C /* FirstNewGamePageSheetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstNewGamePageSheetViewController.h; sourceTree = "<group>"; };
+		0CBE45531B3F6A300003009C /* FirstNewGamePageSheetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstNewGamePageSheetViewController.m; sourceTree = "<group>"; };
+		0CBE45551B41A8AA0003009C /* SecondNewGamePageSheetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondNewGamePageSheetViewController.h; sourceTree = "<group>"; };
+		0CBE45561B41A8AA0003009C /* SecondNewGamePageSheetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondNewGamePageSheetViewController.m; sourceTree = "<group>"; };
+		0CC6DAB21B46F9EC002C7D65 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		0CC6DAB31B46F9EC002C7D65 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		0CC6DAB51B474C9E002C7D65 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		0CC6DAB61B474C9E002C7D65 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		0CC6DAB81B474D2E002C7D65 /* Bowler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bowler.h; sourceTree = "<group>"; };
+		0CC6DAB91B474D2E002C7D65 /* Bowler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bowler.m; sourceTree = "<group>"; };
+		0CC6DABB1B4831F6002C7D65 /* Inning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Inning.h; sourceTree = "<group>"; };
+		0CC6DABC1B4831F6002C7D65 /* Inning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Inning.m; sourceTree = "<group>"; };
+		0CC6DABE1B483281002C7D65 /* Dismissal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dismissal.h; sourceTree = "<group>"; };
+		0CC6DABF1B483281002C7D65 /* Dismissal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dismissal.m; sourceTree = "<group>"; };
+		0CC6DAC11B48330C002C7D65 /* Batsman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Batsman.h; sourceTree = "<group>"; };
+		0CC6DAC21B48330C002C7D65 /* Batsman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Batsman.m; sourceTree = "<group>"; };
+		0CC6DAC51B48404B002C7D65 /* GamePlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePlayViewController.h; sourceTree = "<group>"; };
+		0CC6DAC61B48404B002C7D65 /* GamePlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePlayViewController.m; sourceTree = "<group>"; };
+		0CC6DAC81B497442002C7D65 /* SelectPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectPlayerViewController.h; sourceTree = "<group>"; };
+		0CC6DAC91B497442002C7D65 /* SelectPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectPlayerViewController.m; sourceTree = "<group>"; };
+		0CC6DACB1B498022002C7D65 /* InitialisationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialisationViewController.h; sourceTree = "<group>"; };
+		0CC6DACC1B498022002C7D65 /* InitialisationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialisationViewController.m; sourceTree = "<group>"; };
+		0CD3277B1B5B4C9000407548 /* StandardDeliveryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandardDeliveryViewController.h; sourceTree = "<group>"; };
+		0CD3277C1B5B4C9000407548 /* StandardDeliveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StandardDeliveryViewController.m; sourceTree = "<group>"; };
+		0CD3277E1B5BED0400407548 /* ChooseBowlerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseBowlerViewController.h; sourceTree = "<group>"; };
+		0CD3277F1B5BED0400407548 /* ChooseBowlerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseBowlerViewController.m; sourceTree = "<group>"; };
+		0CD327811B5C9A3500407548 /* DismissalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissalViewController.h; sourceTree = "<group>"; };
+		0CD327821B5C9A3500407548 /* DismissalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissalViewController.m; sourceTree = "<group>"; };
+		0CD327841B5D970A00407548 /* LoadGameListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadGameListTableViewController.h; sourceTree = "<group>"; };
+		0CD327851B5D970A00407548 /* LoadGameListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadGameListTableViewController.m; sourceTree = "<group>"; };
+		0CD327871B5EF61100407548 /* MatchSummaryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MatchSummaryTableViewCell.xib; sourceTree = "<group>"; };
+		0CD327891B5EFAE800407548 /* MatchSummaryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchSummaryTableViewCell.h; sourceTree = "<group>"; };
+		0CD3278A1B5EFAE800407548 /* MatchSummaryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchSummaryTableViewCell.m; sourceTree = "<group>"; };
+		0CD3278C1B5EFFFB00407548 /* MatchFactsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MatchFactsTableViewCell.xib; sourceTree = "<group>"; };
+		0CD3278E1B5F388400407548 /* MatchFactsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchFactsTableViewCell.h; sourceTree = "<group>"; };
+		0CD3278F1B5F388400407548 /* MatchFactsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchFactsTableViewCell.m; sourceTree = "<group>"; };
+		0CD327911B5F390200407548 /* MatchSummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchSummaryViewController.h; sourceTree = "<group>"; };
+		0CD327921B5F390200407548 /* MatchSummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchSummaryViewController.m; sourceTree = "<group>"; };
+		0CD327941B5FFD4500407548 /* ScorecardBatsmanTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScorecardBatsmanTableViewCell.xib; sourceTree = "<group>"; };
+		0CD327961B5FFE4200407548 /* ScorecardBowlerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScorecardBowlerTableViewCell.xib; sourceTree = "<group>"; };
+		0CD327A21B6002D700407548 /* ScoreboardTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreboardTableViewController.h; sourceTree = "<group>"; };
+		0CD327A31B6002D700407548 /* ScoreboardTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreboardTableViewController.m; sourceTree = "<group>"; };
+		0CD327A71B6006B500407548 /* ScoreboardBatsmanTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreboardBatsmanTableViewCell.h; sourceTree = "<group>"; };
+		0CD327A81B6006B500407548 /* ScoreboardBatsmanTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreboardBatsmanTableViewCell.m; sourceTree = "<group>"; };
+		0CD327AA1B6006C300407548 /* ScoreboardBowlerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreboardBowlerTableViewCell.h; sourceTree = "<group>"; };
+		0CD327AB1B6006C300407548 /* ScoreboardBowlerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreboardBowlerTableViewCell.m; sourceTree = "<group>"; };
+		0CD327AD1B600F8F00407548 /* ScoreboardPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreboardPageViewController.h; sourceTree = "<group>"; };
+		0CD327AE1B600F8F00407548 /* ScoreboardPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreboardPageViewController.m; sourceTree = "<group>"; };
+		0CD327B01B60109700407548 /* ScoreboardContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreboardContainerViewController.h; sourceTree = "<group>"; };
+		0CD327B11B60109700407548 /* ScoreboardContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreboardContainerViewController.m; sourceTree = "<group>"; };
+		0CD327B31B60148600407548 /* ScoreboardListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreboardListTableViewController.h; sourceTree = "<group>"; };
+		0CD327B41B60148600407548 /* ScoreboardListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreboardListTableViewController.m; sourceTree = "<group>"; };
+		0CD327B91B60A0FB00407548 /* BattingStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BattingStatistics.h; path = ../BattingStatistics.h; sourceTree = "<group>"; };
+		0CD327BA1B60A0FB00407548 /* BattingStatistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BattingStatistics.m; path = ../BattingStatistics.m; sourceTree = "<group>"; };
+		0CD327BC1B60A1A400407548 /* BowlingStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BowlingStatistics.h; sourceTree = "<group>"; };
+		0CD327BD1B60A1A400407548 /* BowlingStatistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BowlingStatistics.m; sourceTree = "<group>"; };
+		0CD327CA1B61960300407548 /* BowlingStatisticsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BowlingStatisticsTableViewCell.xib; sourceTree = "<group>"; };
+		0CD327CD1B6197DA00407548 /* StatisticsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatisticsTableViewController.h; sourceTree = "<group>"; };
+		0CD327CE1B6197DA00407548 /* StatisticsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatisticsTableViewController.m; sourceTree = "<group>"; };
+		0CD327D01B61990900407548 /* StatisticsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatisticsTableViewCell.h; sourceTree = "<group>"; };
+		0CD327D11B61990900407548 /* StatisticsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatisticsTableViewCell.m; sourceTree = "<group>"; };
+		0CD327D31B61F2B300407548 /* StatisticsPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatisticsPageViewController.h; sourceTree = "<group>"; };
+		0CD327D41B61F2B300407548 /* StatisticsPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatisticsPageViewController.m; sourceTree = "<group>"; };
+		0CD327D61B61F3A300407548 /* StatisticsContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatisticsContainerViewController.h; sourceTree = "<group>"; };
+		0CD327D71B61F3A300407548 /* StatisticsContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatisticsContainerViewController.m; sourceTree = "<group>"; };
+		0CFECC951B698A660001E541 /* PDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFViewController.h; sourceTree = "<group>"; };
+		0CFECC961B698A660001E541 /* PDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFViewController.m; sourceTree = "<group>"; };
+		0CFECC981B698AA00001E541 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +215,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CFECC991B698AA00001E541 /* CoreText.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,9 +229,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C021E1F1B73C2720012ACFC /* graphics */ = {
+			isa = PBXGroup;
+			children = (
+				0C021E201B73C2720012ACFC /* green_both_un.png */,
+				0C021E211B73C2720012ACFC /* green_selected.png */,
+				0C021E221B73C2720012ACFC /* green_selected_left.png */,
+				0C021E231B73C2720012ACFC /* green_selected_right.png */,
+				0C021E241B73C2720012ACFC /* green_unselected.png */,
+				0C021E251B73C2720012ACFC /* red_both_un.png */,
+				0C021E261B73C2720012ACFC /* red_selected.png */,
+				0C021E271B73C2720012ACFC /* red_selected_left.png */,
+				0C021E281B73C2720012ACFC /* red_selected_right.png */,
+				0C021E291B73C2720012ACFC /* red_unselected.png */,
+				0C021E2A1B73C2720012ACFC /* white_both_un.png */,
+				0C021E2B1B73C2720012ACFC /* white_selected.png */,
+				0C021E2C1B73C2720012ACFC /* white_selected_left.png */,
+				0C021E2D1B73C2720012ACFC /* white_selected_right.png */,
+				0C021E2E1B73C2720012ACFC /* white_unselected.png */,
+			);
+			path = graphics;
+			sourceTree = "<group>";
+		};
 		0C2EFE2D1B38BF5400A92E09 = {
 			isa = PBXGroup;
 			children = (
+				0CFECC981B698AA00001E541 /* CoreText.framework */,
 				0C2EFE381B38BF5400A92E09 /* CricScorer */,
 				0C2EFE551B38BF5400A92E09 /* CricScorerTests */,
 				0C2EFE371B38BF5400A92E09 /* Products */,
@@ -88,11 +277,65 @@
 				0C2EFE3E1B38BF5400A92E09 /* AppDelegate.m */,
 				0C2EFE401B38BF5400A92E09 /* FirstViewController.h */,
 				0C2EFE411B38BF5400A92E09 /* FirstViewController.m */,
+				0CC6DAC51B48404B002C7D65 /* GamePlayViewController.h */,
+				0CC6DAC61B48404B002C7D65 /* GamePlayViewController.m */,
+				0C021E511B776F460012ACFC /* Cricket-50@2x.png */,
+				0C021E521B776F460012ACFC /* Dossier-50@2x.png */,
+				0C021E531B776F460012ACFC /* Downloads Folder-50@2x.png */,
+				0C021E541B776F460012ACFC /* Statistics Filled-50@2x.png */,
+				0CD3277E1B5BED0400407548 /* ChooseBowlerViewController.h */,
+				0CD3277F1B5BED0400407548 /* ChooseBowlerViewController.m */,
 				0C2EFE431B38BF5400A92E09 /* SecondViewController.h */,
 				0C2EFE441B38BF5400A92E09 /* SecondViewController.m */,
+				0C021E3E1B742F5C0012ACFC /* GameplayScoreboardViewController.h */,
+				0C021E3F1B742F5C0012ACFC /* GameplayScoreboardViewController.m */,
 				0C2EFE461B38BF5400A92E09 /* Main.storyboard */,
+				0CD327871B5EF61100407548 /* MatchSummaryTableViewCell.xib */,
+				0CD3278C1B5EFFFB00407548 /* MatchFactsTableViewCell.xib */,
+				0CD327CA1B61960300407548 /* BowlingStatisticsTableViewCell.xib */,
+				0CD327D61B61F3A300407548 /* StatisticsContainerViewController.h */,
+				0CD327D71B61F3A300407548 /* StatisticsContainerViewController.m */,
+				0CD327CD1B6197DA00407548 /* StatisticsTableViewController.h */,
+				0CD327CE1B6197DA00407548 /* StatisticsTableViewController.m */,
+				0CD327D01B61990900407548 /* StatisticsTableViewCell.h */,
+				0CD327D11B61990900407548 /* StatisticsTableViewCell.m */,
+				0CD327D31B61F2B300407548 /* StatisticsPageViewController.h */,
+				0CD327D41B61F2B300407548 /* StatisticsPageViewController.m */,
+				0C021E1F1B73C2720012ACFC /* graphics */,
+				0CD327CC1B6197AB00407548 /* Scoreboards */,
+				0CD3278E1B5F388400407548 /* MatchFactsTableViewCell.h */,
+				0CD3278F1B5F388400407548 /* MatchFactsTableViewCell.m */,
+				0CD327891B5EFAE800407548 /* MatchSummaryTableViewCell.h */,
+				0CD3278A1B5EFAE800407548 /* MatchSummaryTableViewCell.m */,
+				0CD327841B5D970A00407548 /* LoadGameListTableViewController.h */,
+				0CD327851B5D970A00407548 /* LoadGameListTableViewController.m */,
+				0CD327911B5F390200407548 /* MatchSummaryViewController.h */,
+				0CD327921B5F390200407548 /* MatchSummaryViewController.m */,
+				0CD327811B5C9A3500407548 /* DismissalViewController.h */,
+				0CD327821B5C9A3500407548 /* DismissalViewController.m */,
+				0C021E411B76CEEB0012ACFC /* rectangle-34969_64.png */,
+				0CD3277B1B5B4C9000407548 /* StandardDeliveryViewController.h */,
+				0CD3277C1B5B4C9000407548 /* StandardDeliveryViewController.m */,
+				0C021DDE1B73BC6F0012ACFC /* StandardSegmentedControl.h */,
+				0C021DDF1B73BC6F0012ACFC /* StandardSegmentedControl.m */,
+				0CC6DACB1B498022002C7D65 /* InitialisationViewController.h */,
+				0CC6DACC1B498022002C7D65 /* InitialisationViewController.m */,
+				0CC6DAC81B497442002C7D65 /* SelectPlayerViewController.h */,
+				0CC6DAC91B497442002C7D65 /* SelectPlayerViewController.m */,
+				0CC6DAC41B483383002C7D65 /* Classes */,
+				0CBE45551B41A8AA0003009C /* SecondNewGamePageSheetViewController.h */,
+				0CBE45561B41A8AA0003009C /* SecondNewGamePageSheetViewController.m */,
+				0CBE45521B3F6A300003009C /* FirstNewGamePageSheetViewController.h */,
+				0CBE45531B3F6A300003009C /* FirstNewGamePageSheetViewController.m */,
 				0C2EFE491B38BF5400A92E09 /* Images.xcassets */,
+				0C021E4F1B776D070012ACFC /* 152x152.png */,
+				0C021E451B776CA70012ACFC /* 29x29.png */,
+				0C021E461B776CA70012ACFC /* 40x40.png */,
+				0C021E471B776CA70012ACFC /* 58x58.png */,
+				0C021E481B776CA70012ACFC /* 76x76.png */,
+				0C021E491B776CA70012ACFC /* 80x80.png */,
 				0C2EFE4B1B38BF5400A92E09 /* LaunchScreen.xib */,
+				0C021E431B776A900012ACFC /* Full version.png */,
 				0C2EFE391B38BF5400A92E09 /* Supporting Files */,
 			);
 			path = CricScorer;
@@ -122,6 +365,52 @@
 				0C2EFE571B38BF5400A92E09 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0CC6DAC41B483383002C7D65 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0CC6DAC11B48330C002C7D65 /* Batsman.h */,
+				0CC6DAC21B48330C002C7D65 /* Batsman.m */,
+				0CC6DABE1B483281002C7D65 /* Dismissal.h */,
+				0CC6DABF1B483281002C7D65 /* Dismissal.m */,
+				0CC6DABB1B4831F6002C7D65 /* Inning.h */,
+				0CC6DABC1B4831F6002C7D65 /* Inning.m */,
+				0CC6DAB81B474D2E002C7D65 /* Bowler.h */,
+				0CC6DAB91B474D2E002C7D65 /* Bowler.m */,
+				0CC6DAB51B474C9E002C7D65 /* Player.h */,
+				0CC6DAB61B474C9E002C7D65 /* Player.m */,
+				0CD327B91B60A0FB00407548 /* BattingStatistics.h */,
+				0CD327BA1B60A0FB00407548 /* BattingStatistics.m */,
+				0CD327BC1B60A1A400407548 /* BowlingStatistics.h */,
+				0CD327BD1B60A1A400407548 /* BowlingStatistics.m */,
+				0CC6DAB21B46F9EC002C7D65 /* Game.h */,
+				0CC6DAB31B46F9EC002C7D65 /* Game.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		0CD327CC1B6197AB00407548 /* Scoreboards */ = {
+			isa = PBXGroup;
+			children = (
+				0CD327941B5FFD4500407548 /* ScorecardBatsmanTableViewCell.xib */,
+				0CD327961B5FFE4200407548 /* ScorecardBowlerTableViewCell.xib */,
+				0CD327B31B60148600407548 /* ScoreboardListTableViewController.h */,
+				0CD327B41B60148600407548 /* ScoreboardListTableViewController.m */,
+				0CD327B01B60109700407548 /* ScoreboardContainerViewController.h */,
+				0CD327B11B60109700407548 /* ScoreboardContainerViewController.m */,
+				0CD327AD1B600F8F00407548 /* ScoreboardPageViewController.h */,
+				0CD327AE1B600F8F00407548 /* ScoreboardPageViewController.m */,
+				0CD327A21B6002D700407548 /* ScoreboardTableViewController.h */,
+				0CD327A31B6002D700407548 /* ScoreboardTableViewController.m */,
+				0CD327A71B6006B500407548 /* ScoreboardBatsmanTableViewCell.h */,
+				0CD327A81B6006B500407548 /* ScoreboardBatsmanTableViewCell.m */,
+				0CD327AA1B6006C300407548 /* ScoreboardBowlerTableViewCell.h */,
+				0CD327AB1B6006C300407548 /* ScoreboardBowlerTableViewCell.m */,
+				0CFECC951B698A660001E541 /* PDFViewController.h */,
+				0CFECC961B698A660001E541 /* PDFViewController.m */,
+			);
+			name = Scoreboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,9 +493,41 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C021E301B73C2720012ACFC /* green_selected.png in Resources */,
+				0C021E501B776D070012ACFC /* 152x152.png in Resources */,
+				0C021E371B73C2720012ACFC /* red_selected_right.png in Resources */,
+				0C021E4A1B776CA70012ACFC /* 29x29.png in Resources */,
+				0C021E2F1B73C2720012ACFC /* green_both_un.png in Resources */,
+				0CD3278D1B5EFFFB00407548 /* MatchFactsTableViewCell.xib in Resources */,
+				0CD327951B5FFD4500407548 /* ScorecardBatsmanTableViewCell.xib in Resources */,
+				0C021E571B776F460012ACFC /* Downloads Folder-50@2x.png in Resources */,
+				0C021E381B73C2720012ACFC /* red_unselected.png in Resources */,
+				0CD327881B5EF61100407548 /* MatchSummaryTableViewCell.xib in Resources */,
+				0C021E361B73C2720012ACFC /* red_selected_left.png in Resources */,
+				0C021E4B1B776CA70012ACFC /* 40x40.png in Resources */,
+				0C021E351B73C2720012ACFC /* red_selected.png in Resources */,
+				0C021E321B73C2720012ACFC /* green_selected_right.png in Resources */,
+				0C021E3B1B73C2720012ACFC /* white_selected_left.png in Resources */,
+				0C021E421B76CEEB0012ACFC /* rectangle-34969_64.png in Resources */,
+				0C021E3C1B73C2720012ACFC /* white_selected_right.png in Resources */,
+				0C021E3D1B73C2720012ACFC /* white_unselected.png in Resources */,
+				0C021E561B776F460012ACFC /* Dossier-50@2x.png in Resources */,
+				0C021E3A1B73C2720012ACFC /* white_selected.png in Resources */,
+				0CD327971B5FFE4200407548 /* ScorecardBowlerTableViewCell.xib in Resources */,
+				0C021E4E1B776CA70012ACFC /* 80x80.png in Resources */,
+				0C021E4C1B776CA70012ACFC /* 58x58.png in Resources */,
 				0C2EFE481B38BF5400A92E09 /* Main.storyboard in Resources */,
+				0C021E391B73C2720012ACFC /* white_both_un.png in Resources */,
+				0C021E311B73C2720012ACFC /* green_selected_left.png in Resources */,
+				0C021E551B776F460012ACFC /* Cricket-50@2x.png in Resources */,
+				0C021E341B73C2720012ACFC /* red_both_un.png in Resources */,
 				0C2EFE4D1B38BF5400A92E09 /* LaunchScreen.xib in Resources */,
 				0C2EFE4A1B38BF5400A92E09 /* Images.xcassets in Resources */,
+				0C021E4D1B776CA70012ACFC /* 76x76.png in Resources */,
+				0C021E441B776A900012ACFC /* Full version.png in Resources */,
+				0C021E581B776F460012ACFC /* Statistics Filled-50@2x.png in Resources */,
+				0CD327CB1B61960300407548 /* BowlingStatisticsTableViewCell.xib in Resources */,
+				0C021E331B73C2720012ACFC /* green_unselected.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,10 +545,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CD327A91B6006B500407548 /* ScoreboardBatsmanTableViewCell.m in Sources */,
+				0CC6DABD1B4831F6002C7D65 /* Inning.m in Sources */,
+				0CD327D21B61990900407548 /* StatisticsTableViewCell.m in Sources */,
+				0CD327931B5F390200407548 /* MatchSummaryViewController.m in Sources */,
+				0CD327CF1B6197DA00407548 /* StatisticsTableViewController.m in Sources */,
+				0CD327AF1B600F8F00407548 /* ScoreboardPageViewController.m in Sources */,
+				0CD327901B5F388400407548 /* MatchFactsTableViewCell.m in Sources */,
+				0CD327B51B60148600407548 /* ScoreboardListTableViewController.m in Sources */,
+				0CC6DAC01B483281002C7D65 /* Dismissal.m in Sources */,
+				0CD327BE1B60A1A400407548 /* BowlingStatistics.m in Sources */,
+				0CC6DAB71B474C9E002C7D65 /* Player.m in Sources */,
+				0CD327D51B61F2B300407548 /* StatisticsPageViewController.m in Sources */,
 				0C2EFE451B38BF5400A92E09 /* SecondViewController.m in Sources */,
 				0C2EFE3F1B38BF5400A92E09 /* AppDelegate.m in Sources */,
+				0CD327B21B60109700407548 /* ScoreboardContainerViewController.m in Sources */,
+				0CC6DAC71B48404B002C7D65 /* GamePlayViewController.m in Sources */,
+				0CD327801B5BED0400407548 /* ChooseBowlerViewController.m in Sources */,
+				0CBE45571B41A8AA0003009C /* SecondNewGamePageSheetViewController.m in Sources */,
 				0C2EFE421B38BF5400A92E09 /* FirstViewController.m in Sources */,
+				0CBE45541B3F6A300003009C /* FirstNewGamePageSheetViewController.m in Sources */,
+				0CC6DAB41B46F9EC002C7D65 /* Game.m in Sources */,
+				0C021E401B742F5C0012ACFC /* GameplayScoreboardViewController.m in Sources */,
+				0CD327861B5D970A00407548 /* LoadGameListTableViewController.m in Sources */,
+				0CD3278B1B5EFAE800407548 /* MatchSummaryTableViewCell.m in Sources */,
+				0CC6DACD1B498022002C7D65 /* InitialisationViewController.m in Sources */,
+				0CD327831B5C9A3500407548 /* DismissalViewController.m in Sources */,
+				0CC6DABA1B474D2E002C7D65 /* Bowler.m in Sources */,
+				0CFECC971B698A660001E541 /* PDFViewController.m in Sources */,
+				0CD327A51B6002D700407548 /* ScoreboardTableViewController.m in Sources */,
+				0CD327D81B61F3A300407548 /* StatisticsContainerViewController.m in Sources */,
+				0CC6DACA1B497442002C7D65 /* SelectPlayerViewController.m in Sources */,
+				0CC6DAC31B48330C002C7D65 /* Batsman.m in Sources */,
+				0CD3277D1B5B4C9000407548 /* StandardDeliveryViewController.m in Sources */,
 				0C2EFE3C1B38BF5400A92E09 /* main.m in Sources */,
+				0CD327BB1B60A0FB00407548 /* BattingStatistics.m in Sources */,
+				0CD327AC1B6006C300407548 /* ScoreboardBowlerTableViewCell.m in Sources */,
+				0C021DE01B73BC700012ACFC /* StandardSegmentedControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +712,7 @@
 				INFOPLIST_FILE = CricScorer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -365,9 +720,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: K Wagle (VNK5G843Y9)";
 				INFOPLIST_FILE = CricScorer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "eeb60070-8dab-4bce-b625-ff21adedaf41";
 			};
 			name = Release;
 		};
@@ -424,6 +781,7 @@
 				0C2EFE5E1B38BF5400A92E09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C2EFE5F1B38BF5400A92E09 /* Build configuration list for PBXNativeTarget "CricScorerTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +790,7 @@
 				0C2EFE611B38BF5400A92E09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

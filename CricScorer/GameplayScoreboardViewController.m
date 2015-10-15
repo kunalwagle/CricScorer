@@ -16,7 +16,26 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateGPScoreboard:) name:@"updateGPScoreboard" object:nil];
     // Do any additional setup after loading the view.
+}
+
+-(void)viewDidAppear:(BOOL)animated {
+    
+}
+
+-(void)updateGPScoreboard:(NSNotification*)notification {
+    NSDictionary *dict = notification.userInfo;
+    self.teamName.text = [dict objectForKey:@"teamName"];
+    self.score.text = [NSString stringWithFormat:@"%d-%d", [[dict objectForKey:@"runs"] intValue], [[dict objectForKey:@"wickets"] intValue]];
+    self.matchSituation.text = [dict objectForKey:@"matchSituation"];
+    self.b1name.text = [dict objectForKey:@"b1name"];
+    self.b2name.text = [dict objectForKey:@"b2name"];
+    self.bname.text = [dict objectForKey:@"bname"];
+    self.b1score.text = [NSString stringWithFormat:@"%d (%d)", [[dict objectForKey:@"b1score"] intValue], [[dict objectForKey:@"b1balls"] intValue]];
+    self.b2score.text = [NSString stringWithFormat:@"%d (%d)", [[dict objectForKey:@"b2score"] intValue], [[dict objectForKey:@"b2balls"] intValue]];
+    self.bscore.text = [NSString stringWithFormat:@"%d-%d (%d.%d)", [[dict objectForKey:@"bwickets"] intValue], [[dict objectForKey:@"bruns"] intValue], [[dict objectForKey:@"bovers"] intValue], [[dict objectForKey:@"bballs"] intValue]];
+    self.overs.text = [NSString stringWithFormat:@"%d.%d", [[dict objectForKey:@"overs"] intValue], [[dict objectForKey:@"balls"] intValue]];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -8,6 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SelectPlayerViewController : UIViewController
+@interface SelectPlayerViewController : UIViewController<UITextFieldDelegate, UITableViewDataSource, UITableViewDelegate>
+
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property NSString *notificationName;
+@property NSMutableArray *tableSource;
+@property NSMutableArray *team;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *segmentedControl;
+- (IBAction)changeSection:(id)sender;
+@property NSMutableArray *bowlers;
+- (IBAction)submit:(id)sender;
+- (IBAction)textChanged:(id)sender;
+@property int selected;
+
 
 @end

@@ -10,4 +10,6 @@
 
 @interface LoadGameListTableViewController : UITableViewController
 
+@property NSMutableArray *filePathsArray;
+
 @end

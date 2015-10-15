@@ -7,7 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Inning.h"
+#import "Game.h"
+#import "Batsman.h"
+#import "Bowler.h"
+#import "Player.h"
+#import "Dismissal.h"
 
 @interface ScoreboardTableViewController : UITableViewController
+
+@property Inning *inning;
+@property Game *game;
+@property int index;
+
 
 @end

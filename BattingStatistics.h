@@ -7,7 +7,21 @@
 //
 
 #import <Foundation/Foundation.h>
+@class Batsman;
 
-@interface BattingStatistics : NSObject
+@interface BattingStats : NSObject<NSCoding>
+
+@property int innings;
+@property int runs;
+@property int notOuts;
+@property int highScore;
+@property float average;
+@property int balls;
+@property float strikeRate;
+@property int fifties;
+@property int hundreds;
+
+-(void)updateBattingStats:(Batsman*)batsman;
+
 
 @end

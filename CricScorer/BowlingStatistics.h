@@ -7,7 +7,21 @@
 //
 
 #import <Foundation/Foundation.h>
+@class Bowler;
 
-@interface BowlingStatistics : NSObject
+@interface BowlingStatistics : NSObject<NSCoding>
+
+@property int balls;
+@property int maidens;
+@property int runs;
+@property int wickets;
+@property int bestWickets;
+@property int bestRuns;
+@property float average;
+@property float economy;
+@property float strikeRate;
+@property int fiveWickets;
+
+-(void)updateBowlingStats:(Bowler*)bowler;
 
 @end

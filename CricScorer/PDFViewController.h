@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreText/CoreText.h>
 
 @interface PDFViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIWebView *webView;
+- (IBAction)shareButton:(id)sender;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *shareButton;
 
 @end

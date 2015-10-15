@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface StatisticsContainerViewController : UIViewController
+@interface StatisticsContainerViewController : UIViewController<UIPageViewControllerDataSource>
+
+@property (strong, nonatomic) UIPageViewController *pageViewController;
 
 @end

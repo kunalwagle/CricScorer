@@ -7,7 +7,20 @@
 //
 
 #import <Foundation/Foundation.h>
+@class Player;
 
-@interface Bowler : NSObject
+@interface Bowler : NSObject<NSCoding>
+
+-(void)updateTotals:(NSDictionary*)dict;
+-(Bowler *)initWithPlayer: (Player *)player2;
+
+@property Player *player;
+@property int overs;
+@property int maidens;
+@property int runs;
+@property int wickets;
+@property int balls;
+@property NSMutableArray *deliveries;
+@property bool maidenPossible;
 
 @end

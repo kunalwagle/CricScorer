@@ -10,4 +10,11 @@
 
 @interface MatchFactsTableViewCell : UITableViewCell
 
+@property (weak, nonatomic) IBOutlet UILabel *teamNames;
+@property (weak, nonatomic) IBOutlet UILabel *ground;
+@property (weak, nonatomic) IBOutlet UILabel *toss;
+@property (weak, nonatomic) IBOutlet UILabel *type;
+@property (weak, nonatomic) IBOutlet UILabel *date;
+@property (weak, nonatomic) IBOutlet UILabel *matchResult;
+
 @end

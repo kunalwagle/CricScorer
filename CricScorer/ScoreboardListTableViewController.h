@@ -10,4 +10,6 @@
 
 @interface ScoreboardListTableViewController : UITableViewController
 
+@property NSMutableArray *filePathsArray;
+
 @end
